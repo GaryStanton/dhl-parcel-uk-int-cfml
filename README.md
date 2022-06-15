@@ -45,7 +45,7 @@ DHLUKCFML = {
 ```
 
 ### Retrieve tracking event data
-Tracking event files are uploaded to the DHL SFTP server every 20 minutes or so. The events component can be used to list, download and process these files.  
+Tracking event files are uploaded to the DHL SFTP server each day. The events component can be used to list, download and process these files.  
 
 ```cfc
 fileList = DHLUKINTEvents.getFileList();
