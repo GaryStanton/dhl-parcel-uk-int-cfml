@@ -1,0 +1,22 @@
+{
+    "name":"DHL Parcel UK International CFML",
+    "version":"1.0.0",
+    "author":"Gary Stanton",
+    "location":"GaryStanton/dhl-parcel-uk-int-cfml#v1.0.0",
+    "createPackageDirectory":"true",
+    "packageDirectory":"DHLParcelUKINTCFML",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/GaryStanton/dhl-parcel-uk-int-cfml"
+    },
+    "bugs":"https://github.com/GaryStanton/dhl-parcel-uk-int-cfml/issues",
+    "slug":"dhl-parcel-uk-int-cfml",
+    "shortDescription":"This module provides a wrapper for the DHL Parcel UK International web service",
+    "type":"modules",
+    "keywords":"DHL Parcel UK CFML ColdFusion Lucee",
+    "scripts":{
+        "postVersion":"package set location='GaryStanton/dhl-parcel-uk-int-cfml#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push --follow-tags"
+    }
+}
